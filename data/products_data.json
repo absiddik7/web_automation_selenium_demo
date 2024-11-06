@@ -6,8 +6,7 @@
                 "description": "New Test Products Description",
                 "category": "Computers",
                 "sku": "SKU123",
-                "price": "1000",
-                "image_path": "data/images/demo_pc.jpg"
+                "price": "1000"
             }
         ],
         "existing_products": [
@@ -16,8 +15,7 @@
                 "description": "Description",
                 "category": "Computers >> Notebooks",
                 "sku": "AP_MBP_13",
-                "price": "1800",
-                "image_path": "path/to/another_image.jpg"
+                "price": "1800"
             }
         ]
     }
