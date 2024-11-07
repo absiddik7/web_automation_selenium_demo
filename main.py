@@ -20,8 +20,8 @@ def generate_allure_report():
     os.system("allure generate --single-file ./reports/allure-results -o ./reports/allure-report --clean")
     
     
-def serve_allure_report():
-    subprocess.run(["allure", "serve", "./reports/allure-results"], shell=True)
+# def serve_allure_report():
+#     subprocess.run(["allure", "serve", "./reports/allure-results"], shell=True)
 
 
 if __name__ == "__main__":
