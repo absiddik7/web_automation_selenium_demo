@@ -18,8 +18,7 @@ if __name__ == "__main__":
 
     # Update headless mode setting
     update_headless_mode(headless)
-
-    # Specify the test files to run
+ 
     test_files = [
         "src/tests/login/test_login.py",
     ]
