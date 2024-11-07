@@ -13,15 +13,15 @@ def main(test_files):
     pytest.main(args + test_files)
 
     generate_allure_report()
-    #serve_allure_report()
+    serve_allure_report()
 
 def generate_allure_report():
     # Simple report generation
     os.system("allure generate --single-file ./reports/allure-results -o ./reports/allure-report --clean")
     
     
-# def serve_allure_report():
-#     subprocess.run(["allure", "serve", "./reports/allure-results"], shell=True)
+def serve_allure_report():
+    subprocess.run(["allure", "serve", "./reports/allure-results"], shell=True)
 
 
 if __name__ == "__main__":
