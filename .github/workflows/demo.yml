@@ -1,4 +1,4 @@
-name: selenium_python_CI
+name: selenium_tutorial
 on: [push]
 jobs:
   build:
